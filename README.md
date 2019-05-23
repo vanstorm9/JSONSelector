@@ -10,22 +10,24 @@ To run this script, you would run:
 
 An input prompt will ask you to input a string for the JSON parser to use to search for sections of a JSON file.
 
-
 This script is capable of single selectors
-
+![alt text](./images/Input-videoMode.png)
+![alt text](./images/container.png)
 
 
 
 It is also capable of compound selectors
-
+![alt text](./images/Input-videoMode.png)
+![alt text](./images/StackView-Box.png)
 
 
 
 And selector chains
-![alt text](./images/InputvideoModeInputtextureMode.png)
-
+![alt text](./images/Boxanisotropy.png)
+![alt text](./images/InputtextureMode.png)
 
 
 This can even handle compound selector chains (though this part may be buggy):
+![alt text](./images/InputvideoModeInputtextureMode.png)
 
 
