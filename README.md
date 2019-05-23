@@ -12,7 +12,7 @@ An input prompt will ask you to input a string for the JSON parser to use to sea
 
 This script is capable of single selectors
 ![alt text](./images/Input-videoMode.png)
-<br/>!<br/>[alt text](./images/container.png)
+<br/><br/>![alt text](./images/container.png)
 
 
 
