@@ -11,7 +11,7 @@ To run this script, you would run:
 An input prompt will ask you to input a string for the JSON parser to use to search for sections of a JSON file.
 
 This script is capable of single selectors
-![alt text](./images/Input-videoMode.png)
+![alt text](./images/input.png)
 <br/><br/>![alt text](./images/container.png)
 
 
