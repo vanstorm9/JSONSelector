@@ -68,6 +68,7 @@ class JSONParser:
               # Dealing with compound selectors
               resList.append(prevData)
             if self.matchJSON(keyPrev,subdata,searchList) and savedData not in resList:
+            # Ths means we found the target attribute (classname/identifier) associated with our parent class
               resList.append(savedData)
               return resList
 
@@ -79,8 +80,8 @@ def main():
   jsonPath = 'data/SystemViewController.json'
   with open(jsonPath) as json_data:
     data = json.load(json_data,)
-    
-  # subviews, contentView, input and control
+  
+  # Input prompt to get input string for parser
   print("Type in a JSON selector input string:")
   inputStr = input()
 
@@ -89,7 +90,8 @@ def main():
   parser = JSONParser()
 
   result = parser.iterateJSON(data,data,'',inputAr,[], [],None)
-
+ 
+  # print out our results
   for i,resEle in enumerate(result):
     print("------------------")
     print(i, ": ", resEle)
